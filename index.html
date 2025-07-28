@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Резюме — Frontend Developer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="resume">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме — Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page">
+    <main class="resume">
+      <header class="header">
+        <img
+          src="./src/images/photo.jpg"
+          alt="фото профиля"
+          class="header__photo"
+        />
 
-    <button id="download-btn" class="resume__download-btn btn ripple">Скачать PDF</button>
-  </main>
+        <div class="header__info">
+          <p class="header__hello editable" contenteditable="true" id="resume-hello">Hello 👋🏻 I’m</p>
+          <div>
+            <h1 class="header__name editable" contenteditable="true" id="resume-name">Elena Padun</h1>
+            <p class="header__description editable" contenteditable="true" id="resume-position">Frontend Developer</p>
+          </div>
+        </div>
 
-  <!-- Подключаем html2pdf для экспорта в PDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-  <script src="script.js"></script>
-</body>
+        <div class="header__languages">
+          <h2 class="header__languages-title">Languages</h2>
+
+          <div class="header__languages-lists">
+            <ul class="header__languages-list">
+              <li class="header__languages-item editable"  contenteditable="true" id="language-1">Russian</li>
+              <li class="header__languages-item editable"  contenteditable="true" id="language-2">English</li>
+              <li class="header__languages-item editable"  contenteditable="true" id="language-3">Italian</li>
+            </ul>
+
+            <div class="header__progress-list">
+              <div class="header__progress-item"></div>
+              <div class="header__progress-item first"></div>
+              <div class="header__progress-item second"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- <button id="download-btn" class="resume__download-btn btn ripple">Скачать PDF</button> -->
+    </main>
+
+    <!-- Подключаем html2pdf для экспорта в PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

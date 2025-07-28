@@ -1,0 +1,18 @@
+.editable {
+  
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.editable:focus {
+  background-color: #28D979;
+  box-shadow: 0 0 0 2px #28D979;
+  padding: 4px 6px;
+}
+
+/* animation: highlight */
+.editable.saved {
+  animation: highlight 1s;
+}

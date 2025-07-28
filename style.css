@@ -2,3 +2,8 @@
 
 @import url('./src/fonts/font.css');
 
+@import url('./src/blocks/page/page.css');
+
+@import url('./src/blocks/header/header.css');
+
+@import url('./src/blocks/editable/editable.css');
