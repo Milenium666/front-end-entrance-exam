@@ -1,11 +1,18 @@
 .page {
-    max-width: 880px;
-    margin: 0 auto;
-    font-family: 'Poppins', Arial, sans-serif;
+  max-width: 880px;
+  margin: 0 auto;
+  font-family: "Poppins", Arial, sans-serif;
+
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.section {
+  margin-top: 50px;
+  display: flex; 
+  justify-content: space-around;
 }
