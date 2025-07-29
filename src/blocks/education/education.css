@@ -20,7 +20,7 @@
   grid-template-columns: repeat(auto-fit, minmax(116px, 1fr));
   row-gap: 12px;
   column-gap: 16px;
-  margin-top: 22px;
+  margin-top: 16px;
 }
 
 .education__card {

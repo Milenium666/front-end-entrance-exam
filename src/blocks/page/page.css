@@ -2,7 +2,8 @@
   max-width: 880px;
   margin: 0 auto;
   font-family: "Poppins", Arial, sans-serif;
-
+display: flex;
+justify-content: center;
 }
 
 *,
@@ -12,7 +13,13 @@
 }
 
 .section {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex; 
-  justify-content: space-around;
+justify-content: space-between;
+}
+
+.group {
+  display: flex;
+flex-direction: column;
+gap: 20px;
 }
