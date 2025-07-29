@@ -12,14 +12,5 @@ justify-content: center;
   box-sizing: border-box;
 }
 
-.section {
-  margin-top: 20px;
-  display: flex; 
-justify-content: space-between;
-}
 
-.group {
-  display: flex;
-flex-direction: column;
-gap: 20px;
-}
+
