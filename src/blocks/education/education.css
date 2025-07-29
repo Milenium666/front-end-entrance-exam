@@ -1,0 +1,93 @@
+.education {
+  width: 268px;
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  padding: 12px 8px 12px 12px;
+ 
+}
+
+.education__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: start;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.education__grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(116px, 1fr));
+  row-gap: 12px;
+  column-gap: 16px;
+  margin-top: 22px;
+}
+
+.education__card {
+  width: 116px;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #28d979;
+  color: #fff;
+}
+.white{
+    background-color: #fff;
+    color: #000;
+}
+.education__subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.education__year {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+.education__like {
+  width: 11px;
+  height: 9px;
+}
+.education__course {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: start;
+  vertical-align: middle;
+  margin: 0;
+}
+.education__list {
+  font-size: 0;
+  margin-bottom: 8px;
+  max-width: 100px;
+}
+.sectiom__hashtag {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+}
+.green{
+    color: #149063;
+}
+
+.education__platform {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: start;
+  vertical-align: middle;
+  margin: 0;
+}

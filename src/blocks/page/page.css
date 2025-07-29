@@ -3,3 +3,9 @@
     margin: 0 auto;
     font-family: 'Poppins', Arial, sans-serif;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
