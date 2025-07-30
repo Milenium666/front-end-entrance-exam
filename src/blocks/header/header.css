@@ -4,6 +4,11 @@
   gap: 20px;
 }
 
+.header__profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .header__photo {
   width: 124px;
   height: 124px;

@@ -1,3 +1,5 @@
+/* global html2pdf */
+
 // Восстановление данных из localStorage при загрузке
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.editable').forEach(el => {

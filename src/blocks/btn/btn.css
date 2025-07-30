@@ -4,7 +4,7 @@
   max-width: 600px;
   margin: 30px auto 0;
   padding: 12px 20px;
-  background-color: #28D979;
+  background-color: #28d979;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -17,5 +17,5 @@
 }
 
 .btn:hover {
-  background-color: #DDF163;
+  background-color: #ddf163;
 }
