@@ -6,8 +6,9 @@
     <title>Резюме — Frontend Developer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="page">
+  <body>
     <main class="resume">
+      <div class="resume__container">
       <header class="resume__header header">
         <div class="header__container">
           <img
@@ -81,7 +82,6 @@
       </header>
 
       <div class="section">
-
         <section class="resume__education education">
           <h2 class="education__title">Education</h2>
 
@@ -222,7 +222,7 @@
                   contenteditable="true"
                   id="hashtag-13"
                 >
-                  ##wireframes
+                  #wireframes
                 </p>
               </div>
 
@@ -259,7 +259,7 @@
                   contenteditable="true"
                   id="hashtag-14"
                 >
-                  branding
+                  #branding
                 </p>
                 <p
                   class="sectiom__hashtag green editable-yellow"
@@ -287,7 +287,7 @@
               <p
                 class="education__platform editable"
                 contenteditable="true"
-                id="platform-1"
+                id="platform-3"
               >
                 Cali Institute of the Arts
               </p>
@@ -378,7 +378,7 @@
               contenteditable="true"
               id="contacts-title"
             >
-              Let´s chat! I´m ready to work on excinting projects
+              Let's chat! I'm ready to work on exciting projects
             </h2>
 
             <div class="contacts__lists">
@@ -397,123 +397,178 @@
           </section>
         </div>
       </div>
-<div  class="section">
-<section class="resume__tools tools">
-        <h2 class="tools__title">Tools</h2>
+      <div class="section">
+        <section class="resume__tools tools">
+          <h2 class="tools__title">Tools</h2>
 
-        <div class="tools__design-container">
-          <h3 class="tools__design-title">design</h3>
-          <img src="./src/images/logoFigma.svg" alt="logo Figma" class="tools__icon"/>
-          <img
-            src="./src/images/logoCreativeCloud.svg"
-            alt=" logo Creative Cloud" class="tools__icon"
-          />
-          <img src="./src/images/logoMiro.svg" alt="logo Miro" class="tools__icon"/>
-          <img src="./src/images/logoNotion.svg" alt="logo Notion" class="tools__icon"/>
-          <img src="./src/images/logoMeet.svg" alt="logo Meet" class="tools__icon"/>
-          <img src="./src/images/logoanalytics.svg" alt="logo analytics" class="tools__icon"/>
-        </div>
-
-        <div class="tools__design-container">
-          <h3 class="tools__design-title">no-code</h3>
-          <img src="./src/images/logoZapìer.svg" alt="logo Zapìer" class="tools__icon"/>
-          <img src="./src/images/logoWebflow.svg" alt=" logo Webflow" class="tools__icon"/>
-          <img src="./src/images/logoFramer.svg" alt="logo Framer" class="tools__icon"/>
-          <img src="./src/images/logoWordpress.svg" alt="logo Wordpress" class="tools__icon"/>
-        </div>
-
-        <div class="tools__design-container">
-          <h3 class="tools__design-title left">artoficial intelligence</h3>
-          <img src="./src/images/logoChatGPT.svg" alt="logo ChatGPT" class="tools__icon"/>
-          <img src="./src/images/logoCopilot.svg" alt=" logo Copilot" class="tools__icon"/>
-          <img src="./src/images/logoMidjourney.svg" alt="logo Midjourney" class="tools__icon"/>
-        </div>
-      </section> 
-
-      <section class="resume__experience experience">
-        <h2 class="experience__title">Experience</h2>
-
-        <div class="experience__card">
-          <div class="experience__header-card">
-            <h3 class="experience__year">Jul. 2023 - Ago. 2023</h3>
-            <p class="experience__current">most recent</p>
+          <div class="resume__design-container tools__design-container">
+            <h3 class="tools__design-title">design</h3>
+            <img
+              src="./src/images/logoFigma.svg"
+              alt="logo Figma"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoCreativeCloud.svg"
+              alt=" logo Creative Cloud"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoMiro.svg"
+              alt="logo Miro"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoNotion.svg"
+              alt="logo Notion"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoMeet.svg"
+              alt="logo Meet"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoanalytics.svg"
+              alt="logo analytics"
+              class="tools__icon"
+            />
           </div>
 
-          <div class="experience__works">
-            <div class="experience__work">
-              <h3 class="experience__position">Senior Graphic Designer</h3>
-              <div class="experience__work-schedule">
-                <p class="experience__pinnacle">Pinnacle</p>
-                <span class="experience__span">|</span>
-                <p class="experience__time">Full-time</p>
-              </div>
+          <div class="resume__design-container tools__design-container">
+            <h3 class="tools__design-title">no-code</h3>
+            <img
+              src="./src/images/logoZapìer.svg"
+              alt="logo Zapìer"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoWebflow.svg"
+              alt=" logo Webflow"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoFramer.svg"
+              alt="logo Framer"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoWordpress.svg"
+              alt="logo Wordpress"
+              class="tools__icon"
+            />
+          </div>
+
+          <div class="resume__design-container tools__design-container">
+            <h3 class="tools__design-title left">artificial intelligence</h3>
+            <img
+              src="./src/images/logoChatGPT.svg"
+              alt="logo ChatGPT"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoCopilot.svg"
+              alt=" logo Copilot"
+              class="tools__icon"
+            />
+            <img
+              src="./src/images/logoMidjourney.svg"
+              alt="logo Midjourney"
+              class="tools__icon"
+            />
+          </div>
+        </section>
+
+        <section class="resume__experience experience">
+          <h2 class="experience__title">Experience</h2>
+
+          <div class="experience__card">
+            <div class="experience__header-card">
+              <h3 class="experience__year">Jul. 2023 - Ago. 2023</h3>
+              <p class="experience__current">most recent</p>
             </div>
-            <ul class="experience__task">
-              <li>
-                Research and brainstorm various design ideas for content and
-                marketing.
-              </li>
-              <li>
-                Review the work submitted by Junior Designers and sharing
-                feedback.
-              </li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="experience__card experience__card_white">
-          <div class="experience__header-card">
-            <h3 class="experience__year">Ene. 2021 - Jul. 2023</h3>
-          </div>
-
-          <div class="experience__works">
-            <div class="experience__work">
-              <h3 class="experience__position">Graphic / Web designer</h3>
-              <div class="experience__work-schedule experience__work-schedule_gray">
-                <p class="experience__pinnacle">Double Square</p>
-                <span class="experience__span">|</span>
-                <p class="experience__time">Full-time</p>
+            <div class="experience__works">
+              <div class="experience__work">
+                <h3 class="experience__position">Senior Graphic Designer</h3>
+                <div class="experience__work-schedule">
+                  <p class="experience__pinnacle">Pinnacle</p>
+                  <span class="experience__span">|</span>
+                  <p class="experience__time">Full-time</p>
+                </div>
               </div>
+              <ul class="experience__task">
+                <li>
+                  Research and brainstorm various design ideas for content and
+                  marketing.
+                </li>
+                <li>
+                  Review the work submitted by Junior Designers and sharing
+                  feedback.
+                </li>
+              </ul>
             </div>
-            <ul class="experience__task">
-              <li>
-                Development of internal projects from scratch, product design of
-                brands.
-              </li>
-              <li>Landing page, webapps and hybrid apps</li>
-              <li>
-                Taking decisions with stakeholders for the future of products
-                such as Beagle labs, myur...
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="experience__card experience__card_white">
-          <div class="experience__header-card">
-            <h3 class="experience__year">Feb. 2021 - Jul. 2023</h3>
           </div>
 
-          <div class="experience__works">
-            <div class="experience__work">
-              <h3 class="experience__position">Graphic Designer</h3>
-              <div class="experience__work-schedule experience__work-schedule_gray">
-                <p class="experience__pinnacle">Freelance</p>
-                <span class="experience__span">|</span>
-                <p class="experience__time">Full-time</p>
+          <div class="experience__card experience__card_white">
+            <div class="experience__header-card">
+              <h3 class="experience__year">Ene. 2021 - Jul. 2023</h3>
+            </div>
+
+            <div class="experience__works">
+              <div class="experience__work">
+                <h3 class="experience__position">Graphic / Web designer</h3>
+                <div
+                  class="experience__work-schedule experience__work-schedule_gray"
+                >
+                  <p class="experience__pinnacle">Double Square</p>
+                  <span class="experience__span">|</span>
+                  <p class="experience__time">Full-time</p>
+                </div>
               </div>
+              <ul class="experience__task">
+                <li>
+                  Development of internal projects from scratch, product design
+                  of brands.
+                </li>
+                <li>Landing page, webapps and hybrid apps</li>
+                <li>
+                  Taking decisions with stakeholders for the future of products
+                  such as Beagle labs, myur...
+                </li>
+              </ul>
             </div>
-            <ul class="experience__task">
-              <li>Visual design for Events, Brands and Products.</li>
-              <li>Product design, Packaging Design</li>
-              <li>Logo Design</li>
-            </ul>
           </div>
-        </div>
-      </section>
-</div>
 
-      <!-- <button id="download-btn" class="resume__download-btn btn ripple">Скачать PDF</button> -->
+          <div class="experience__card experience__card_white">
+            <div class="experience__header-card">
+              <h3 class="experience__year">Feb. 2021 - Jul. 2023</h3>
+            </div>
+
+            <div class="experience__works">
+              <div class="experience__work">
+                <h3 class="experience__position">Graphic Designer</h3>
+                <div
+                  class="experience__work-schedule experience__work-schedule_gray"
+                >
+                  <p class="experience__pinnacle">Freelance</p>
+                  <span class="experience__span">|</span>
+                  <p class="experience__time">Full-time</p>
+                </div>
+              </div>
+              <ul class="experience__task">
+                <li>Visual design for Events, Brands and Products.</li>
+                <li>Product design, Packaging Design</li>
+                <li>Logo Design</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      </div>
+      <button id="download-btn" class="resume__download-btn btn ripple">
+        Скачать PDF
+      </button>
     </main>
 
     <!-- Подключаем html2pdf для экспорта в PDF -->

@@ -18,17 +18,28 @@ document.addEventListener('blur', (e) => {
     }, 1000);
   }
 }, true);
-
+// Перед генерацией PDF сделайте элементы не редактируемыми
+document.querySelectorAll('[contenteditable="true"]').forEach(el => {
+  el.setAttribute('data-contenteditable', 'true');
+  el.setAttribute('contenteditable', 'false');
+});
 // Экспорт в PDF
 document.getElementById('download-btn').addEventListener('click', () => {
   const element = document.querySelector('.resume');
-  const opt = {
-    margin: 1,
-    filename: 'resume.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: 'cm', format: 'a4', orientation: 'portrait' }
-  };
+const opt = {
+  margin: 1,
+  filename: 'resume.pdf',
+  image: { type: 'jpeg', quality: 0.98 },
+  html2canvas: {
+    scale: 2,
+    useCORS: true
+  },
+  jsPDF: {
+    unit: 'cm',
+    format: 'a4',
+    orientation: 'portrait'
+  }
+};
 
   html2pdf().set(opt).from(element).save();
 });

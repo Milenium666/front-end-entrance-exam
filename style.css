@@ -4,6 +4,8 @@
 
 @import url('./src/blocks/page/page.css');
 
+@import url('./src/blocks/resume/resume.css');
+
 @import url('./src/blocks/section/section.css');
 
 @import url('./src/blocks/group/group.css');
@@ -21,3 +23,5 @@
 @import url('./src/blocks/tools/tools.css');
 
 @import url('./src/blocks/experience/experience.css');
+
+@import url('./src/blocks/btn/btn.css');

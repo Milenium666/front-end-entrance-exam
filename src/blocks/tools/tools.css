@@ -4,7 +4,6 @@
   border-radius: 12px;
   background-color: #f0f0f0;
   padding: 12px;
-
 }
 
 .tools__title {
@@ -14,7 +13,6 @@
   text-align: start;
   vertical-align: middle;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 .tools__design-container {
@@ -24,14 +22,15 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, 10px);
- gap: 16px;
- margin-bottom: 12px;
-max-width: 76px;
+  gap: 20px;
 
+  max-width: 76px;
+
+  margin: 12px;
 }
 
 .tools__design-container:last-child {
-     margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .tools__design-title {
@@ -50,10 +49,9 @@ max-width: 76px;
   z-index: 1;
   margin: 0;
 }
- .left {
+.left {
   left: 6px;
- }
+}
 .tools__icon {
-    width: 18px;
-    height: 18px;
+  z-index: 2;
 }
