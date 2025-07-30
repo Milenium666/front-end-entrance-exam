@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 1cm;
+}
+html,
+body,
+#content {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  width: 210mm;
+  max-height: 297mm;
+  background-color: #fff;
+  display: block;
+  page-break-before: auto;
+  page-break-inside: avoid;
+
+}
+

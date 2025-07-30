@@ -1,0 +1,110 @@
+.experience {
+  border-radius: 12px;
+  background-color: #f0f0f0;
+  padding: 12px;
+  width: 411px;
+}
+.experience__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: start;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.experience__card {
+  background-color: #28d979;
+  border-radius: 10px;
+  padding: 8px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+.experience__card:last-child {
+  margin-bottom: 22px;
+}
+.experience__card_white {
+  background-color: #fff;
+  color: #000;
+}
+.experience__header-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.experience__year {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 150%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.experience__current {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 155%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #7e731266;
+  border-radius: 59px;
+  padding: 2px 6px;
+  color: #ddf163;
+  margin: 0;
+}
+
+.experience__works {
+  display: flex;
+}
+
+.experience__work {
+  display: flex;
+  flex-direction: column;
+  width: 124px;
+}
+
+.experience__position {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.experience__work-schedule {
+  display: flex;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 150%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ebf9f2;
+}
+
+.experience__work-schedule_gray {
+  color: #3f3d3d;
+}
+.experience__pinnacle {
+  margin: 0;
+}
+.experience__span {
+  margin: 0 6px;
+}
+.experience__time {
+  margin: 0;
+}
+
+.experience__task {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 150%;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  max-width: 239px;
+  padding-left: 28px;
+}
+

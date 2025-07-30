@@ -1,0 +1,29 @@
+.editable {
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.editable:focus {
+  background-color: #28d979;
+  box-shadow: 0 0 0 2px #28d979;
+  padding: 4px 6px;
+}
+
+.editable-yellow {
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  outline: none;
+}
+.editable-yellow:focus {
+  background-color: #f6ed1e;
+  box-shadow: 0 0 0 2px #f6ed1e;
+  padding: 4px 6px;
+}
+
+/* animation: highlight */
+.editable.saved {
+  animation: highlight 1s;
+}
