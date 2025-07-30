@@ -112,8 +112,4 @@
   width: 123px;
 }
 
-@media (max-width: 768px) {
-  .header__container {
-    gap: 16px;
-  }
-}
+

@@ -3,7 +3,6 @@
   background-color: #f0f0f0;
   padding: 12px;
   width: 411px;
-
 }
 .experience__title {
   font-weight: 500;
@@ -21,7 +20,6 @@
   color: #fff;
   margin-bottom: 10px;
   margin-top: 16px;
-  
 }
 .experience__card:last-child {
   margin-bottom: 22px;
@@ -60,7 +58,6 @@
 
 .experience__works {
   display: flex;
-  
 }
 
 .experience__work {
@@ -84,11 +81,11 @@
   line-height: 150%;
   text-align: center;
   vertical-align: middle;
-  color: #EBF9F2;
+  color: #ebf9f2;
 }
 
 .experience__work-schedule_gray {
-    color: #3F3D3D;
+  color: #3f3d3d;
 }
 .experience__pinnacle {
   margin: 0;
@@ -109,6 +106,5 @@
   margin: 0;
   max-width: 239px;
   padding-left: 28px;
- 
 }
 

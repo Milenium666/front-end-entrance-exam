@@ -2,8 +2,6 @@
 
 @import url('./src/fonts/font.css');
 
-
-
 @import url('./src/blocks/resume/resume.css');
 
 @import url('./src/blocks/section/section.css');
@@ -25,3 +23,5 @@
 @import url('./src/blocks/experience/experience.css');
 
 @import url('./src/blocks/btn/btn.css');
+
+
