@@ -48,6 +48,10 @@
   left: 20px;
   z-index: 1;
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60px;
 }
 .left {
   left: 6px;
@@ -55,6 +59,3 @@
 .tools__icon {
   z-index: 2;
 }
-
-
-
