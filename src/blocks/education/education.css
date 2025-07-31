@@ -9,7 +9,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 150%;
-  letter-spacing: 0%;
   text-align: start;
   vertical-align: middle;
   margin: 0;
@@ -30,9 +29,9 @@
   background-color: #28d979;
   color: #fff;
 }
-.white{
-    background-color: #fff;
-    color: #000;
+.white {
+  background-color: #fff;
+  color: #000;
 }
 .education__subtitle {
   display: flex;
@@ -44,7 +43,6 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 150%;
-  letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
   margin: 0;
@@ -57,7 +55,6 @@
   font-weight: 500;
   font-size: 10px;
   line-height: 150%;
-  letter-spacing: 0%;
   text-align: start;
   vertical-align: middle;
   margin: 0;
@@ -71,25 +68,22 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 150%;
-  letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
   margin: 0;
   display: inline-block;
+  max-width: 100%;
 }
-.green{
-    color: #149063;
+
+.green {
+  color: #149063;
 }
 
 .education__platform {
   font-weight: 400;
   font-size: 8px;
   line-height: 150%;
-  letter-spacing: 0%;
   text-align: start;
   vertical-align: middle;
   margin: 0;
 }
-
-
-

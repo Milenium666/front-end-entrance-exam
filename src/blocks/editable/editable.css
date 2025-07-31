@@ -4,11 +4,13 @@
   cursor: pointer;
   outline: none;
 }
-
 .editable:focus {
   background-color: #28d979;
   box-shadow: 0 0 0 2px #28d979;
   padding: 4px 6px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .editable-yellow {
@@ -18,9 +20,12 @@
   outline: none;
 }
 .editable-yellow:focus {
-  background-color: #f6ed1e;
-  box-shadow: 0 0 0 2px #f6ed1e;
+  background-color: #c0b936;
+  box-shadow: 0 0 0 2px #c0b936;
   padding: 4px 6px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 /* animation: highlight */

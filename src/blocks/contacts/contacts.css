@@ -14,19 +14,24 @@
   vertical-align: middle;
   margin: 0;
   margin-bottom: 11px;
+  max-height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .contacts__lists {
   display: flex;
 }
 
-.contacts__email {
+.contacts__contact {
   font-weight: 400;
   font-size: 10px;
   line-height: 150%;
   vertical-align: middle;
   margin: 0;
+
 }
+
 
 .contacts__span {
   font-weight: 400;
@@ -37,11 +42,4 @@
   margin-right: 8px;
 }
 
-.contacts__tel {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 150%;
-  vertical-align: middle;
-    margin: 0;
 
-}

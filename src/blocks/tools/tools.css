@@ -48,10 +48,11 @@
   left: 20px;
   z-index: 1;
   margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 60px;
+}
+
+.tools__design-title:focus {
+  width: 100%;
+  left: 7px;
 }
 .left {
   left: 6px;

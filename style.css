@@ -4,6 +4,8 @@
 
 @import url("./src/blocks/resume/resume.css");
 
+@import url('./src/blocks/text-nowrap/text-nowrap.css');
+
 @import url("./src/blocks/section/section.css");
 
 @import url("./src/blocks/group/group.css");
